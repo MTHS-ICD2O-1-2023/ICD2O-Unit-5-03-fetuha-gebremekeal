@@ -2,7 +2,7 @@
 // Created on: Apr 2024
 // This file contains the JS functions for index.html
 
-const age
+const 
 
 /**
  * This function checks if the user has selected the random number from above
@@ -10,10 +10,10 @@ const age
 
 function checkNumber() {
   // input
-  const userNumber = parseInt(document.getElementById("integer").value)
+  const userAge = parseInt(document.getElementById("integer").value)
 
   //process
-  if (userNumber == randomNumber) {
+  if (userAge >= 17) {
     // output
     document.getElementById("result").innerHTML =
       "You got it!"
