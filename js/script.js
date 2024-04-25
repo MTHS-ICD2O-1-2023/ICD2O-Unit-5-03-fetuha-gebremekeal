@@ -17,21 +17,21 @@ function checkNumber() {
       "You can see an R rated movie alone!"
   }
 
-  if (userAge >= 13) {
+  else if (userAge >= 13) {
     // output
     document.getElementById("result").innerHTML =
       "You can see a PG-13 movie alone!"
   }
 
-  if (userAge >= 5) {
+  else if (userAge >= 5) {
     // output
     document.getElementById("result").innerHTML =
       "You can see a G or PG movie alone!"
   }
 
-  if (userNumber != randomNumber) {
+  else {
     // output
     document.getElementById("result").innerHTML =
-      "You didn't get it!"
+      "You're too young for most things!"
   }
 }
