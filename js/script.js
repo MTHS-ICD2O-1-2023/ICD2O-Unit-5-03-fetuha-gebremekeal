@@ -2,8 +2,6 @@
 // Created on: Apr 2024
 // This file contains the JS functions for index.html
 
-const 
-
 /**
  * This function checks if the user has selected the random number from above
  */
@@ -16,7 +14,19 @@ function checkNumber() {
   if (userAge >= 17) {
     // output
     document.getElementById("result").innerHTML =
-      "You got it!"
+      "You can see an R rated movie alone!"
+  }
+
+  if (userAge >= 13) {
+    // output
+    document.getElementById("result").innerHTML =
+      "You can see a PG-13 movie alone!"
+  }
+
+  if (userAge >= 5) {
+    // output
+    document.getElementById("result").innerHTML =
+      "You can see a G or PG movie alone!"
   }
 
   if (userNumber != randomNumber) {
