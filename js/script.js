@@ -6,7 +6,7 @@
  * This function checks if the user has selected the random number from above
  */
 
-function checkNumber() {
+function movieType() {
   // input
   const userAge = parseInt(document.getElementById("integer").value)
 
