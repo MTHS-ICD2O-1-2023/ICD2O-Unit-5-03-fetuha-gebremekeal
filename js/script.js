@@ -1,37 +1,20 @@
-// Created by: Fetuha
-// Created on: Apr 2024
+// Copyright (c) 2024 Kai Nguyen All rights reserved
+//
+// Created by: Kai Nguyen
+// Created on: Mar 2024
 // This file contains the JS functions for index.html
+"use strict"
 
-/**
- * This function checks if the user has selected the random number from above
- */
+function findAgeClicked() {
+  const ageInput = parseInt(document.getElementById("age-entered").value)
 
-function movieType() {
-  // input
-  const userAge = parseInt(document.getElementById("integer").value)
-
-  //process
-  if (userAge >= 17) {
-    // output
-    document.getElementById("result").innerHTML =
-      "You can see an R rated movie alone!"
-  }
-
-  else if (userAge >= 13) {
-    // output
-    document.getElementById("result").innerHTML =
-      "You can see a PG-13 movie alone!"
-  }
-
-  else if (userAge >= 5) {
-    // output
-    document.getElementById("result").innerHTML =
-      "You can see a G or PG movie alone!"
-  }
-
-  else {
-    // output
-    document.getElementById("result").innerHTML =
-      "You're too young for most things!"
+  if (ageInput >= 17) {
+    document.getElementById("answer").innerHTML = "You can watch R rated movies alone."
+  } else if (ageInput >= 13) {
+    document.getElementById("answer").innerHTML = "You can watch PG-13 rated movies alone."
+  } else if (ageInput >= 5) {
+    document.getElementById("answer").innerHTML = "You can watch G or PG rated movies alone."
+  } else {
+    document.getElementById("answer").innerHTML = "You are too young to watch movies alone."
   }
 }
