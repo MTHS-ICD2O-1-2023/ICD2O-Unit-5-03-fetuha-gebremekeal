@@ -1,6 +1,6 @@
-// Copyright (c) 2024 Kai Nguyen All rights reserved
+// Copyright (c) 2024 Fetuha All rights reserved
 //
-// Created by: Kai Nguyen
+// Created by: Fetuha
 // Created on: Mar 2024
 // This file contains the JS functions for index.html
 "use strict"
